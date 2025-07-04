@@ -128,5 +128,5 @@ const int PFX(max_bit_depth) = 8;
 #define ADD12 ""
 #endif
 
-const char* PFX(version_str) = XSTR(X265_VERSION);
-const char* PFX(build_info_str) = ONOS COMPILEDBY BITS ASM ATOMICS CHECKED BITDEPTH ADD8 ADD10 ADD12;
+const char* PFX(version_str) = XSTR(X265_WASU);
+const char* PFX(build_info_str) = "Wasu AI Team";
